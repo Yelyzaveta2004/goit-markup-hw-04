@@ -63,6 +63,7 @@ body{
   }
   .page-header{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08)
   }
   .logo-studio {
     color: #2E2F42;
@@ -127,15 +128,21 @@ body{
     display: flex;
     gap: 40px;
 }
-/*::after{
-    content: ;
-    width: 100%;
-    height: 4px;
-    background-color:#404BBF ;
-    border-radius: 50%;
-}/position: absolute;
-bottom: 0;
-left: 0;*/
+/*{
+    content:  '' ;
+    position: absolute;
+    left: 0;
+    bottom: -1px; 
+    height: 4px; 
+    background-color: #404bbf; 
+    border-radius: 2px;
+}
+::after{
+
+}*/
+    
+   
+
 /*=========== перша секція==========*/
 .section-one{
  background-color: #2E2F42;
@@ -146,6 +153,9 @@ left: 0;*/
  url(../images/hero-image-jpg.jpg);
  background-repeat: no-repeat;
  background-size: cover;
+ max-width: 1440px;
+ background-position: center;
+
 }
 
 .button-section-one{
@@ -162,6 +172,7 @@ left: 0;*/
     height: 56px ;
     border: none;
     border-radius: 4px; 
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .button-section-one:hover,:focus{
     background-color: #404BBF;
@@ -212,6 +223,9 @@ left: 0;*/
     margin-bottom: 8px;
     padding-top: 24px;
     padding-left: 100px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
 }
 /*==================третя секція==================*/
 .section-three{
@@ -221,6 +235,8 @@ left: 0;*/
 .item-section-three{
  background-color: #FFFFFF;
  border-radius: 0px 0px 4px 4px; 
+ box-shadow :0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+
 }
 .title-section-three{
     color: #2E2F42;
@@ -271,7 +287,9 @@ margin-bottom: 72px;
     padding-left: 16px;
     padding-top: 8px;
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
+    justify-content: center;
+
 }
 
 
