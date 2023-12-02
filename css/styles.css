@@ -350,6 +350,7 @@ body {
   position: relative;
   overflow: hidden;
 }
+
 .item-section-four:hover .overlay {
   transform: translateY(0%);
 }
