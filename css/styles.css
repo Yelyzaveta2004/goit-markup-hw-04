@@ -286,6 +286,15 @@ body {
 .section-three-div {
   padding: 32px 0;
 }
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.item-social-media {
+  width: 40px;
+  height: 40px;
+}
 .social-media-icon {
   width: 100%;
   height: 100%;
@@ -295,12 +304,15 @@ body {
   justify-content: center;
   background-color: #4d5ae5;
 }
-.social-media-icon:hover:focus {
+
+.social-media-icon:hover,
+.social-media-icon:focus {
   background-color: #404bbf;
 }
 .icon-card-one {
   fill: #f4f4fd;
 }
+
 /*==============четверта секція=============*/
 .section-four {
   padding-top: 120px;
@@ -399,9 +411,20 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
+.footer-two {
+  display: flex;
+  align-items: baseline;
+}
+.footer-three {
+  margin-right: 120px;
+}
 .social-media-icons-list-footer {
   display: flex;
   gap: 16px;
+}
+.item-social-media-footer {
+  width: 40px;
+  height: 40px;
 }
 .social-media-icon-footer {
   width: 100%;
@@ -412,7 +435,8 @@ body {
   align-items: center;
   justify-content: center;
 }
-.social-media-icon-footer:hover:focus {
+.social-media-icon-footer:hover,
+.social-media-icon-footer:focus {
   background-color: #31d0aa;
 }
 .icon-card-footer {
